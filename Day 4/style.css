@@ -1,0 +1,70 @@
+body{
+    padding: 0px 80px;
+    background-color: #f2ece4;
+    font-family: 'Montserrat';
+    text-decoration-color: blanchedalmond ;
+}
+
+div{
+    display: inline-block;
+}
+#div1{
+    align-items: center;
+    padding: 0px 120px;
+    font-family: 'Orbitron';
+}
+header{
+    background-image: url(https://i.ibb.co/sm5Htz2/welcome.jpg);
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    background-size: cover;
+
+}
+
+.body-section {
+    display: flex;
+
+
+}
+.sidebar {
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+a, a:visited{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Orbitron';
+}
+nav{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+section div a img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+section div {
+    background-color: #f2ece4;
+    display: flex;
+}
+section div div{
+    padding: 0px 50px;
+}
