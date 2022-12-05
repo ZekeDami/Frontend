@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="icon" href="#" type="Assets/Logo">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Orbitron&family=Poppins:wght@200;400&family=Signika:wght@300&display=swap" rel="stylesheet">
+        <title>Project1</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Orbitron&family=Poppins:wght@200;400&family=Signika:wght@300&display=swap'); 
+            body{
+                padding: 0px 80px;
+                background-color: #f2ece4;
+                font-family: 'Montserrat';
+                text-decoration-color: blanchedalmond ;
+            }
+            .me{
+                padding: 0px 20px;
+            }
+            div{
+                display: inline-block;
+            }
+            #div1{
+                align-items: center;
+                padding: 0px 120px;
+                font-family: 'Poppings';
+            }
+            header{
+                align-items: center;
+                width: 100%;
+                display: flex;
+            }
+
+            .body-section {
+                display: flex;
+
+
+            }
+            .sidebar {
+                width: 30%;
+                height: 200px;
+                text-align: center;
+                color: white;
+            }
+            a, a:visited{
+                color: black;
+                text-decoration: none;
+                text-decoration-color: black;
+            }
+            nav ul{
+                display: flex;
+            }
+            nav ul li{
+                list-style: none;
+                padding: 10px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: black;
+                font-family: 'Orbitron';
+            }
+            nav{
+                justify-content: space-evenly;
+                display: flex;
+                align-items: center;
+            }
+            .tooltip{
+                position: relative;
+                display: inline-block;
+            }
+            .tooltip .tooltiptext{
+                
+                visibility: hidden;
+                width: 320px;
+                background-color: white;
+                color: black;
+                align-items: left;
+                padding: 10px;
+                border-radius: 6px;
+                position: absolute;
+                z-index: 1;
+                top: 100%;
+                left: 50%;
+                margin-left: -60px;
+                
+                
+            }
+            .tooltip:hover .tooltiptext{
+                visibility: visible;
+            }
+        
+        </style>
+    </head> 
+    <body>
+        <nav class="header">
+            <a href="index.html">
+                <img src="Logo.svg">
+            </a>
+            <ul>
+                <li>
+                    <div class="tooltip">
+                        <a href="#">Product</a> <span class="tooltiptext">
+                            <div>
+                                <img src="Spense_Icon.svg" alt="spense"><b>Spense</b><br><p ><b>
+                                    Spance is a landing page for writer. Great for absolute positioning and flex layout.
+                                </b></p>
+                            </div>
+                            <div>
+                                <img src="Fiber_Icon.svg" alt="Fiber_Icon"><b>Firbe Landing Page<br><p>
+                                    An online portfolio generator. great to practice flex/grid layout and absolute positioning.
+                                </p></b>
+                            </div>
+                            <div>
+                                <img src="Gradie_Icon.svg" alt="Gradie_Icon"><b>Spense<br><p>
+                                    Gradie is a simple sign up page. Great to Pratice centering layout
+                                </p></b>
+                            </div>
+                        </span>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div>
+                        <a href="#">Challenges</a>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div>
+                        <a href="#">Resouces</a>
+                    </div>
+                    
+                </li>
+                <li>
+                    <div>
+                        <a href="#">Other Link</a>
+                    </div>
+                    
+                </li>
+            </ul>
+            <div id="div2">
+                <a style="font-family: Orbitron;" href="">Sign in</a>
+                <a style="text-decoration: none; background-color: #059862; color: white; padding: 14px 12px; border-radius: 5px;" href="#">Try For Free</a>
+            </nav>
+        </header>
+        <br>
+        <div class="body-section" >
+            <div class="main-body">
+                <p> <span style="font-family: Signika; font-size: 60px;"> Ondeck is your remote <span> <br>
+                <span style="color: rgb(248, 248, 4); font-size: 50px;"  >confrence calling tools </span></p>
+                <p><b>Ondeck is a service that allow you to create beautiful, online, encrypted video calls for
+                    you and your remote team</b></p>
+                    <a style="text-decoration: none; background-color: #059862; color: white; padding: 14px 12px; margin: 10px 0px; border-radius: 5px" href="#">Try For Free</a>
+                <br><br>
+                <div style="display: flex;">
+                    <p><b>5.0 rating based on review from:</b></p>
+                    <div>
+                        <img class="ig" src="Capterra Logo.svg" alt="Capterra">
+                    </div>
+                    <div>
+                        <img class="ig" src="Gradie_Icon.svg" alt="Gradie_Icon">
+                    </div>
+                    <div>
+                        <img class="ig" src="Spense_Icon.svg" alt="Spense_Icon">
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar s2" >
+                <img src="Hero Image.png" alt="Hero" width="250" >
+            </div>
+        </div>
+        <footer style="align-items: center; text-align: center; width: 100%;"> <b>
+            <p>Trusted by 3+ million at companies at</p></p>
+            <div>
+                <img class="ig" src="Netflix Logo.svg" alt="Netflix">
+            </div>
+            <div>
+                <img class="ig" src="Shopify Logo.svg" alt="Shopify">
+            </div>
+            <div>
+                <img class="ig" src="Spotify Logo.svg" alt="Spotify">
+            </div>
+            <div>
+                <img class="ig" src="Walmart Logo.svg" alt="Walmart">
+            </div>
+        </footer>
+    </body>
+</html>
