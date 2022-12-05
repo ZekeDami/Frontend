@@ -1,0 +1,119 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1e4f4;
+    font-family: 'Montserrat';
+    text-decoration-color: blanchedalmond ;
+}
+nav{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
+
+}
+nav div a{
+    padding: 0px 9px;
+    width: 20px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-size: 15px;
+}
+nav  a img{
+    width: 150px;
+    align-items: left;
+}
+#me{
+    width: 50px;
+}
+.fa-brands{
+    font-size: 20px;
+    color: #15552d;
+}
+
+#landing{
+    background-image: url(https://i.ibb.co/1d6dFmh/image4.png);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+#notice{
+    position: absolute;
+    margin: 100px 450px;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: justify;
+}
+div button{
+    text-decoration: none;
+    background-color: #15552d;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+div button:hover{
+    border: #16572f;
+    border-color: rgb(13, 160, 13);
+    background-color: white;
+    color: black;
+}
+
+section{
+    text-align: center;
+    margin: 70px 0px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.me{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0px 20px;
+    border: 1px solid #15552d;
+    align-items: center;
+    transition: ease-out 0.8s;
+}
+.me img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    background-color: #15552d;
+    color: white;
+    padding: 30px;
+}
+.me div a{
+    width: 320px;
+    height: 500px;
+}
+
+.me:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 2px 2px 5px black;
+
+}

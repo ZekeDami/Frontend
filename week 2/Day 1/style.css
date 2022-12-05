@@ -1,0 +1,89 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f2ee;
+    font-family: 'Montserrat';
+    text-decoration-color: blanchedalmond ;
+}
+
+header{
+    background-image: url(https://i.ibb.co/5jvDHGS/image2.jpg);
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 200px;
+    background-size: cover;
+
+}
+
+.body-section {
+    display: flex;
+
+
+}
+#image-div {
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+a, a:visited{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font: 1em sans-serif;
+}
+
+a:visited{
+    color: white;
+}
+nav{
+    padding: 5px;
+    background-color: black;
+
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+#image-div{
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    color: white;
+
+}
+section {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+
+button{
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(235, 8, 8);
+}
+
+#landing{
+    background-image: url(image/image2.jpg);
+    align-items: center;
+    width: 100%;
+    display: flex;
+    height: 600px;
+    background-size: cover;
+}
