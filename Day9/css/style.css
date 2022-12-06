@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Orbitron&family=Playfair+Display:ital@1&family=Poppins:wght@200;400&family=Signika:wght@300&display=swap');
+
+body{
+   font-family: "Poppins";
+}
+
+ .fa-user{
+    font-size: larger;
+    font-weight: 200px;
+ }
+ .fa-user:hover{
+   color: orange;
+ }
+ .fa-circle-question{
+      font-size: larger;
+      font-weight: 200px;
+ }
+ .nav-link:hover{
+      color: orange;
+ }
+ .btn{
+   background-color: orange;
+   color: white;
+   border: none ;
+   width: 100px;
+ }
+ .btn:hover{
+   background-color: rgb(206, 136, 7);
+ }
+
+ .navbar{
+      padding: 0px 100px;
+ }
+ .nav-item{
+   position: relative;
+ }
